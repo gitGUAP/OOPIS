@@ -39,11 +39,11 @@
       </counter>
       <counter>
         <item-type type-id="relationship" type="UmlAssociation" />
-        <value>30</value>
+        <value>28</value>
       </counter>
       <counter>
         <item-type type-id="universal-connector" type="UniversalConnector" />
-        <value>71</value>
+        <value>67</value>
       </counter>
       <counter>
         <item-type type-id="generalization" type="UmlGeneralization" />
@@ -71,7 +71,7 @@
       </counter>
       <counter>
         <item-type type-id="dependency" type="UmlDependency" />
-        <value>7</value>
+        <value>3</value>
       </counter>
       <counter>
         <item-type type-id="uml-interface" type="UmlInterface" />
@@ -87,7 +87,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>119</value>
+        <value>78</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -103,7 +103,7 @@
     <fields>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
-        <value>78</value>
+        <value>68</value>
       </counter>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
@@ -165,7 +165,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-class" id="p4c0ac4eb6bbb485380d5a0c6c642b27f_773561088" name="ClassDiagram1" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-4,97" zoom="0.8">
+      <diagram type="uml-class" id="p4c0ac4eb6bbb485380d5a0c6c642b27f_773561088" name="ClassDiagram1" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="334,56" zoom="1.4">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -177,7 +177,7 @@
           </authors>
           <description />
           <creation-date>03/10/2018 16:55:52</creation-date>
-          <change-date>03/10/2018 20:07:23</change-date>
+          <change-date>03/10/2018 20:02:16</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -221,12 +221,6 @@
             <source-codes>
               <source-code language="ActionScript" />
             </source-codes>
-          </item>
-          <item id="di948030203502383762" cid="DEP006" type="dependency" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pe8a405ac86c54430893ae1963f8e8dfb" creation-date="03/10/2018 20:07:23" from="di117034593624490230" to="di490479935905518933">
-            <stereotypes>
-              <stereotype name="use" />
-            </stereotypes>
-            <style class="default" />
           </item>
           <item id="di901741168178219554" cid="C004" type="class" name="Poster" style-class="" visibility="package" change-tracking-state="added" creator="Pe8a405ac86c54430893ae1963f8e8dfb" creation-date="03/10/2018 17:11:46">
             <style class="default" />
@@ -295,13 +289,6 @@
             <source-codes>
               <source-code language="ActionScript" />
             </source-codes>
-          </item>
-          <item id="di406541981838275282" cid="REL029" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pe8a405ac86c54430893ae1963f8e8dfb" creation-date="03/10/2018 20:05:11" from="di375940111542119611" to="di661494591696650890">
-            <style class="default" />
-            <relation from="di375940111542119611" to="di661494591696650890">
-              <start-role id="umlar-6f7904ef-d6f3-4a9a-9a4a-aa4f8ab15249" name="" multiplicity="1" navigability="" association-type="composition" visibility="private" />
-              <end-role id="umlar-47fb207c-87a0-4540-9a70-2376a08358f3" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
-            </relation>
           </item>
           <item id="di433593465662043376" cid="C002" type="class" name="Video" style-class="" visibility="package" change-tracking-state="added" creator="Pe8a405ac86c54430893ae1963f8e8dfb" creation-date="03/10/2018 17:11:42">
             <style class="default" />
@@ -617,31 +604,25 @@
               <attribute id="add61587bbaf34d31831c1657a284f816807" cid="ELEM001" name="id" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
                 <style class="default" />
                 <source-codes>
-                  <source-code language="ActionScript" uid="scs-ec08a5c2-120b-4f63-b10a-5aec1ab2f3da" />
+                  <source-code language="ActionScript" uid="scs-da69d1a7-f8e2-47ae-9b1a-d58c51f5a86a" />
                 </source-codes>
               </attribute>
               <attribute id="a3d1ab24a5a1148999f36ad139d601892444" cid="ELEM002" name="nickname" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
                 <style class="default" />
                 <source-codes>
-                  <source-code language="ActionScript" uid="scs-bd2c5e88-e180-4e41-9ac1-6550189dee56" />
+                  <source-code language="ActionScript" uid="scs-be0bedd1-3064-40f5-8aaa-fababd045139" />
                 </source-codes>
               </attribute>
               <attribute id="a1545332fee4849e3af71c627f54ea84587" cid="ELEM016" name="email" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
                 <style class="default" />
                 <source-codes>
-                  <source-code language="ActionScript" uid="scs-95e90fa7-7c45-4c6f-ae52-5e8de270279b" />
+                  <source-code language="ActionScript" uid="scs-129f6959-9f05-4454-87ad-05fb7f76100a" />
                 </source-codes>
               </attribute>
               <attribute id="a80c3481901ee40d39b809365cf4ad3e1694" cid="ELEM017" name="password" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
                 <style class="default" />
                 <source-codes>
-                  <source-code language="ActionScript" uid="scs-9d60025f-25f5-47e5-90a8-f9495c114766" />
-                </source-codes>
-              </attribute>
-              <attribute id="a5b002e647f4c4b5aa13586820a37590e732" cid="ELEM077" name="subscription" creation-date="01/01/0001 00:00:00" type="Boolean" type-id="Uml.Boolean" visibility="private">
-                <style class="default" />
-                <source-codes>
-                  <source-code language="ActionScript" uid="scs-e9b782af-40c1-453a-b6c6-e40dd4acd2c4" />
+                  <source-code language="ActionScript" uid="scs-7db07583-e308-46bc-9562-c1137ab1b215" />
                 </source-codes>
               </attribute>
             </attributes>
@@ -816,12 +797,6 @@
             <source-codes>
               <source-code language="ActionScript" />
             </source-codes>
-          </item>
-          <item id="di435488329823791583" cid="DEP005" type="dependency" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pe8a405ac86c54430893ae1963f8e8dfb" creation-date="03/10/2018 20:07:02" from="di375940111542119611" to="di117034593624490230">
-            <stereotypes>
-              <stereotype name="use" />
-            </stereotypes>
-            <style class="default" />
           </item>
           <item id="di663111464572624643" cid="GNR050" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pe8a405ac86c54430893ae1963f8e8dfb" creation-date="03/10/2018 18:51:59" from="di102561419631732080" to="di375940111542119611">
             <style class="default" />
@@ -1031,33 +1006,6 @@
               </points>
             </layout>
             <relation from="di375940111542119611" from-iid="1dee52d50fa249278ac4973fd232c21e" to="di926501748620433287" to-iid="999277c064154c2c9fa22ea01ef92220" />
-          </item>
-          <item id="di406541981838275282" iid="4d83a49256594c4b826eeb555af4c89a" creation-date="03/10/2018 20:05:11" order-index="52" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1387" y1="296" x2="1559" y2="-39" start-border-pos="0.374559330295872" end-border-pos="0.874496947394477" name-position="0,0">
-              <points>
-                <point x="1387" y="296" />
-                <point x="1559" y="-39" />
-              </points>
-            </layout>
-            <relation from="di375940111542119611" from-iid="1dee52d50fa249278ac4973fd232c21e" to="di661494591696650890" to-iid="be97c3c77c5c40beaef83ed5d8758b77" />
-          </item>
-          <item id="di435488329823791583" iid="2b2b68a9889a46938239c0c671708497" creation-date="03/10/2018 20:07:02" order-index="53" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1387" y1="296" x2="1485" y2="314" start-border-pos="0.374559330295872" end-border-pos="0.875244279657247" name-position="0,0">
-              <points>
-                <point x="1387" y="296" />
-                <point x="1485" y="314" />
-              </points>
-            </layout>
-            <relation from="di375940111542119611" from-iid="1dee52d50fa249278ac4973fd232c21e" to="di117034593624490230" to-iid="55a1b7858b2f4352a450de83e806ef39" />
-          </item>
-          <item id="di948030203502383762" iid="f639be2d31874bbe975c00239c5699f6" creation-date="03/10/2018 20:07:23" order-index="54" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1661" y1="314" x2="1759" y2="385" start-border-pos="0.374755702963723" end-border-pos="0.874322991622122" name-position="0,0">
-              <points>
-                <point x="1661" y="314" />
-                <point x="1759" y="385" />
-              </points>
-            </layout>
-            <relation from="di117034593624490230" from-iid="55a1b7858b2f4352a450de83e806ef39" to="di490479935905518933" to-iid="744071fb658a4d43841b7ff005c1d03c" />
           </item>
         </layer>
       </diagram>
