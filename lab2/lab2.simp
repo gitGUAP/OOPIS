@@ -53,11 +53,19 @@
         <item-type type-id="comment-connector" type="UmlCommentConnector" />
         <value>2</value>
       </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>3</value>
+      </counter>
     </entity-ids>
     <diagrams>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
         <value>3</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
       </counter>
     </diagrams>
     <fields />
@@ -145,8 +153,8 @@
           <item id="di715772609654862063" cid="REL015" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="03/03/2018 21:47:54" from="di168166498672388531" to="di856270754283513470">
             <style class="default" />
             <relation from="di168166498672388531" to="di856270754283513470">
-              <start-role id="umlar-338e4bc7-ba03-4449-a2e4-3464bba1b707" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-70a4bb3f-f7f8-45b4-91ae-a8180b27ca6e" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-70a81ff1-cdad-41c2-8e9d-4c394194d983" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-38252714-bce7-4c41-a718-e96cbd9ba085" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di856270754283513470" cid="UC024" type="use-case" name="Просмотр данных" style-class="" visibility="package" change-tracking-state="added" creation-date="03/03/2018 21:48:06">
@@ -277,8 +285,8 @@
           <item id="di933982178789655191" cid="REL016" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="03/03/2018 21:57:15" from="di303270230335567270" to="di987776738159019861">
             <style class="default" />
             <relation from="di303270230335567270" to="di987776738159019861">
-              <start-role id="umlar-5dc043c7-c389-4de4-afec-b10cd56d7081" name="" navigability="" association-type="association" visibility="private" />
-              <end-role id="umlar-e86dc4a9-05f9-4bcf-b965-9306ddf5f636" name="" navigability="" association-type="association" visibility="private" />
+              <start-role id="umlar-6d0adc76-fb0d-4498-9b0b-5174bc3834c0" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-32154ca1-e8d6-4242-9f1a-183c2408597c" name="" navigability="" association-type="association" visibility="private" />
             </relation>
           </item>
           <item id="di336974113207804321" cid="EX012" type="extend" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="03/03/2018 21:59:27" from="di826338853314723868" to="di612282550898809234">
@@ -565,6 +573,25 @@
             <relation from="di185451995558460647" from-iid="ffc6519a7d1343d48c07ed6418ff1033" to="di281900558454341120" to-iid="9ec56099022141aa8dcae006d6fab24e" />
           </item>
         </layer>
+      </diagram>
+      <diagram type="uml-class" id="p4c0ac4eb6bbb485380d5a0c6c642b27f_773561088" name="ClassDiagram1" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>03/10/2018 16:55:52</creation-date>
+          <change-date>03/10/2018 16:55:52</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="df5ca343d6ce4487b68f01f5c2221e40" name="Default" visible="true" enabled="true" locked="false" />
       </diagram>
     </model>
   </models>
