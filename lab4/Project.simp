@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.50" multi-file="no" uid="simpddbe70ebedef4eecbed99b2c44082b68">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="actor" type="UmlActor" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="lifeline" type="UmlLifeline" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="activation-bar" type="ConcreteUmlActivationBar" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>23</value>
+      </counter>
+      <counter>
+        <item-type type-id="actor" type="UmlActor" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="lifeline" type="UmlLifeline" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="activation-bar" type="UmlActivationBar" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlSequenceDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-c7029373cde24defb88486046bb0e459" name="" task-id-sequence="0">
+    <persons>
+      <person id="P6f0a777fa33a4f6a8691aefe464b1ae6">
+        <first-name />
+        <last-name>Moonman</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-7bc653ea46ff4780837c674491f47f9d" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="p87315be9e1614dc3a78b0219965ac020_679764964" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/08/2018 11:30:40</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-sequence" id="p9602917facd14f40860b433b85381b18_653059261" name="SequenceDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/08/2018 11:30:40</creation-date>
+          <change-date>04/08/2018 11:34:21</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di444360587381210800" cid="AC001" type="actor" name="Пользователь" style-class="" visibility="package" change-tracking-state="added" creator="P6f0a777fa33a4f6a8691aefe464b1ae6" creation-date="04/08/2018 11:30:44">
+            <style class="default" />
+          </item>
+          <item id="di962061952506238517" cid="LL001" type="lifeline" name="Страница регистрации" style-class="" visibility="package" change-tracking-state="added" creator="P6f0a777fa33a4f6a8691aefe464b1ae6" creation-date="04/08/2018 11:33:50">
+            <style class="default" />
+            <lifeline classifier-name="" is-active="false" is-multi-object="false" />
+          </item>
+          <item id="di815064738930276603" cid="LL002" type="lifeline" name="БД" style-class="" visibility="package" change-tracking-state="added" creator="P6f0a777fa33a4f6a8691aefe464b1ae6" creation-date="04/08/2018 11:34:07">
+            <style class="default" />
+            <lifeline classifier-name="" is-active="false" is-multi-object="false" />
+          </item>
+          <item id="di821128423412439672" cid="AB001" type="activation-bar" name="ExecutionOccurrence1" style-class="" owner="di444360587381210800" visibility="package" change-tracking-state="added" creator="P6f0a777fa33a4f6a8691aefe464b1ae6" creation-date="04/08/2018 11:34:21">
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer id="d67c0af1ed65414f83af1c8b05fb0bca" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di444360587381210800" iid="18afb8c2ce724f8692e03b55054c215a" creation-date="04/08/2018 11:30:44" order-index="0" type="lifeline">
+            <layout ax="366" ay="50" awidth="140" aheight="500" x="366" y="350" width="140" height="500" container-layout="simple" />
+          </item>
+          <item id="di962061952506238517" iid="9b559d71c4874ba7b930bf671cac5356" creation-date="04/08/2018 11:33:50" order-index="1" type="lifeline">
+            <layout ax="630" ay="50" awidth="140" aheight="500" x="630" y="50" width="140" height="500" container-layout="simple" />
+          </item>
+          <item id="di815064738930276603" iid="eb7331a4e07d46148a3edc22b33fcc61" creation-date="04/08/2018 11:34:07" order-index="2" type="lifeline">
+            <layout ax="894" ay="50" awidth="140" aheight="500" x="894" y="50" width="140" height="500" container-layout="simple" />
+          </item>
+          <item id="di821128423412439672" iid="75cf8ec22a234dc3a2995c0783398027" container="di444360587381210800" container-iid="18afb8c2ce724f8692e03b55054c215a" creation-date="04/08/2018 11:34:21" order-index="3" type="entity">
+            <layout ax="426" ay="173" awidth="20" aheight="50" x="426" y="173" width="20" height="50" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
